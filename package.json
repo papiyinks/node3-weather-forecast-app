@@ -1,8 +1,8 @@
 {
-  "name": "web-server",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "npx nodemon src/app.js -e js,hbs"
@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.1",
-    "request": "^2.88.0"
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.15"
   }
 }
